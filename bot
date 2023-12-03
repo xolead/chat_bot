@@ -30,4 +30,9 @@ def main_func():
         if user_choice == "1":
             print(settlers)
 
+        elif user_choice == "q":
+            print("пока")
+            working = False
+
+
 main_func()
